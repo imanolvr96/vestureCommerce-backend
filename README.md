@@ -1,20 +1,32 @@
-# VestureCommerce
+# VestureCommerce 🛒
 
-VestureCommerce is an open-source e-commerce platform designed for clothing stores. It follows a **Hexagonal
-Architecture** and **Domain-Driven Design (DDD)** principles, ensuring scalability and maintainability.
+VestureCommerce is a modern eCommerce platform for clothing stores. It provides a microservices-based backend
+architecture using Domain-Driven Design (DDD) and Hexagonal Architecture principles.
 
-## Features
+## 🚀 Features
 
-- 🛍️ Manage products, categories, and stock.
-- 🏷️ API-first approach with **OpenAPI**.
-- 🔄 Event-driven communication using **Kafka**.
-- 🛠️ Built with **Spring Boot** and **Java 23**.
-- 🧪 Comprehensive testing: unit, integration, and automation.
-- 🗄️ Uses **MariaDB** as the relational database.
+- Microservices architecture for scalability and maintainability
+- Domain-Driven Design (DDD) and Hexagonal Architecture
+- RESTful API following API-First principles with OpenAPI
+- Integration with Apache Kafka for event-driven communication
+- PostgreSQL as the relational database
+- Comprehensive testing (unit, integration, and automation)
 
-## Getting Started
+## 🛠 Installation & Setup
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/imanolvr96/vestureCommerce-backend.git
+### 1️⃣ Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+- [Java 23](https://www.oracle.com/java/technologies/javase/jdk23-archive-downloads.html)
+- [Maven](https://maven.apache.org/download.cgi)
+- [Git](https://git-scm.com/downloads)
+- [Docker](https://www.docker.com/) (optional, for running additional services)
+
+### 2️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/imanolvr96/vestureCommerce-backend.git
+cd vestureCommerce-backend
+
 
